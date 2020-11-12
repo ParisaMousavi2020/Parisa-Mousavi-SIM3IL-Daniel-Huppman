@@ -1,6 +1,8 @@
 # hello-world
 just new repository
 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
    Copyright 2020 Parisa Mousavi
    
    This is a test to creat a conflict
@@ -17,10 +19,6 @@ just new repository
    See the License for the specific language governing permissions and
    limitations under the License.
    
-Hi Everybody
-I am Parisa from Austria
-I am student in master degree Energy systems Engineering.
-
 # Python code
 
 import numpy as np
@@ -54,10 +52,4 @@ x0s = [0.02, 0.17, 0.38, 0.62, 0.82, 0.98]
 for x in x0s:
     root = optimize.newton(f, x, fprime=df, full_output=False)
     print('root is at = ', root)
-
-
-
-
-
-
 
