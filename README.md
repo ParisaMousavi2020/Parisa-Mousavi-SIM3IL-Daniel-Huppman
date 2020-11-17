@@ -19,5 +19,6 @@ just new repository
    See the License for the specific language governing permissions and
    limitations under the License.
    
-# Python code
+# Python code description
+We define the polynomial function of degree 6 first itself and its first derivative as a function that we will use later. Then we plot the polynomial function between x = 0 to x = 1. I made that f (x) = 0 just to make it easier to see situations where the function becomes zero. I took it to mean that the rough values ​​are the same values ​​that we see's visually from the platoon of the function, which I considered to be the initial estimate of the answer. Because in Newton's method we need an initial estimate. Then I got the roots from the optimize.newton command, which belongs to the scipy library. If you True full_output, you can see additional information such as how many iterations it takes to find the answer or whether the answer has converged or not.
 
