@@ -1,1 +1,12 @@
+from core_py import f(x)
+  
+  def test_f() :
+     assert f(1)==1
+     
+from core_py import df(x)
 
+    def test_df() :
+       assert f(1)==102
+       
+       
+    
